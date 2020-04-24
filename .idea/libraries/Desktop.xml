@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Desktop">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/build/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/demo/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/generated/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/legacy/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/main/core-api/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/main/core-impl/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/main/protocol-impl/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/main/user-api/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/main/user-impl/java" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-8.0.19/src/test/java" />
+      <root url="file://$USER_HOME$/Desktop/sikko/src" />
+      <root url="file://$USER_HOME$/Desktop/untitled1/src" />
+      <root url="file://$USER_HOME$/Desktop" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop" recursive="false" type="SOURCES" />
+  </library>
+</component>

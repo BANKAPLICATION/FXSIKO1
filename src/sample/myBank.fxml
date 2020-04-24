@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MyBankController">
+    <children>
+        <Label fx:id="MybankLabel" layoutX="271.0" layoutY="32.0" prefHeight="31.0" prefWidth="61.0" text="My bank" />
+        <Label fx:id="AmountMoneyLabel" layoutX="63.0" layoutY="110.0" prefHeight="17.0" prefWidth="104.0" text="Amount of money:" />
+        <Label fx:id="AmountMoneyData" layoutX="219.0" layoutY="110.0" prefHeight="17.0" prefWidth="104.0" text="Label" />
+        <Label fx:id="TakeDepositLabel" layoutX="63.0" layoutY="192.0" prefHeight="17.0" prefWidth="83.0" text="Take a credit" />
+        <TextField fx:id="TakeDepositField" layoutX="218.0" layoutY="188.0" promptText="Enter your deposit" />
+        <Button fx:id="TakeDepositButton" layoutX="225.0" layoutY="269.0" mnemonicParsing="false" text="Take credit" />
+        <Button fx:id="Exitbutton" layoutX="53.0" layoutY="269.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Exit" />
+    </children>
+</AnchorPane>

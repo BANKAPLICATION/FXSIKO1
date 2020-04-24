@@ -128,7 +128,8 @@ public class MenuController {
             String senderPhone =  SenderNumberPhoneField.getText();
             String recipientPhone = RecipientPhoneNumberLabel.getText();
             int amount = Integer.parseInt(AmountField.getText());
-            database.Transfer(senderPhone,recipientPhone,amount);
+            int a = database.Transfer(senderPhone,recipientPhone,amount);
+            AmountMoneyData.setText(Integer.toString(a));
         });
             ArrayList <Schets> schets = database.getUserWithSchets();
             int index = -1;

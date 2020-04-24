@@ -231,7 +231,7 @@
         public static int userid = -1;
        public static int oldAmount = 0;
         public static int amount1 = 0;
-        public void Transfer(String senderPhone, String recipient, int amount) {
+        public int Transfer(String senderPhone, String recipient, int amount) {
             try {
                  ps = connection.prepareStatement("SELECT * FROM users");
                  rs = ps.executeQuery();
@@ -286,6 +286,7 @@
                                      Alert alert = new Alert(Alert.AlertType.INFORMATION);
                                      alert.setContentText("Succesfully Translated!!!");
                                      alert.showAndWait();
+                                    return amount1 - amount;
                                  }
                              }
                          }
@@ -296,7 +297,7 @@
             catch (Exception e) {
                 e.printStackTrace();
             }
-
+        return amount1;
         }
          public boolean admin(String login,String password) {
             try {
